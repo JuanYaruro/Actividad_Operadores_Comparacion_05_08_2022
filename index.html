@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores de comparacion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="shortcut icon" href="https://juanpabloyaruroespinosa.000webhostapp.com/folder.png" type="image/x-icon" />
+</head>
+
+<body>
+    <form action="https://juanpabloyaruroespinosa.000webhostapp.com/Actividad_Operadores_Comparacion_05_08_2022/api.php"
+        method="POST">
+        <h1>Escriba dos valores en los recuadros</h1>
+        <div id="datos">
+            <label>Ingrese el numero 1</label>
+            <input type="text" name="num1" required pattern="[0123456789]+">
+            <label>Ingrese el numero 2</label>
+            <input type="text" name="num2" required pattern="[0123456789]+">
+        </div>
+        <h2>Elige una o varias de las opciones</h2>
+        <br>
+        <div>
+            <div>
+                <div id="opciones1">
+                    <div>
+                        <input type="checkbox" name="operador" value="Igual"> <label>Igual</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="operador" value="Idéntico"> <label>Idéntico</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="operador" value="Diferente"> <label>Diferente</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="operador" value="No Idéntico"> <label>No Idéntico</label>
+                    </div>
+                </div>
+                <br>
+                <div id="opciones2">
+                    <div>
+                        <input type="checkbox" name="operador" value="Menor Que"> <label>Menor Que</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="operador" value="Mayor Que"> <label>Mayor Que</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="operador" value="Menor Igual Que"> <label>Menor Igual Que</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="operador" value="Mayor Igual Que"> <label>Mayor Igual Que</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <pre id="res"></pre>
+    <div id="ReferenciaAlIcono">
+        <div> Iconos diseñados por <a href="https://www.freepik.com" title="Freepik"> Freepik </a> from <a
+            href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es'</a></div>
+    </div>
+</body>
+
+</html>

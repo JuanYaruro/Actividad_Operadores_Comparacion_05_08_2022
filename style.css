@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+
+body {
+    font-family: sans-serif;
+    color: #ffffff;
+    background-image: linear-gradient(to bottom right, rgb(141, 51, 176), rgba(210, 53, 165));
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    margin: 0px auto;
+
+}
+
+form {
+    width: 100%;
+    height: 75%;
+    max-width: 500px;
+    border: 5px solid #1f01319d;
+    border-radius: 25px;
+    padding-bottom: 20px;
+    margin: 60px auto;
+    background-color: rgba(32, 2, 39, 0.37);
+    box-shadow: 0 0 4px 2px #ff00f2a3;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#datos {
+    text-align: center;
+}
+
+#datos-input {
+    text-align: center;
+}
+
+#opciones1 {
+    text-align: justify;
+    left: 30px;
+    position: relative;
+    top: 5px;
+    width: 150px;
+}
+
+#opciones2 {
+    text-align: justify;
+    left: 180px;
+    position: relative;
+    top: -90px;
+    width: 150px;
+}
+
+pre {
+    background: #390041a1;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+pre::selection {
+    background: rgba(255, 90, 214, 0.498);
+    color: rgb(0, 0, 0);
+}
+
+#ReferenciaAlIcono {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
