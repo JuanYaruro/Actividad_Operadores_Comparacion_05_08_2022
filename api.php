@@ -14,7 +14,7 @@
             "Igual" => ($num1 == $num2) ? "$num1 == $num2 True" : "$num1 == $num2 False",
             "Idéntico" => ($num1 === $num2) ? "$num1 === $num2 True" : "$num1 === $num2 False",
             "Diferente" => ($num1 != $num2) ? "$num1 != $num2 True" : "$num1 != $num2 False",
-            "No Idéntic" => ($num1 !== $num2) ? "$num1 !== $num2 True" : "$num1 !== $num2 False",
+            "No Idéntico" => ($num1 !== $num2) ? "$num1 !== $num2 True" : "$num1 !== $num2 False",
             "Menor Que" => ($num1 < $num2) ? "$num1 < $num2 True" : "$num1 < $num2 False",
             "Mayor Que" => ($num1 > $num2) ? "$num1 > $num2 True" : "$num1 > $num2 False",
             "Menor Igual Que" => ($num1 <= $num2) ? "$num1 <= $num2 True" : "$num1 <= $num2 False",
